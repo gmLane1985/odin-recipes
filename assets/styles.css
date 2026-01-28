@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #e7f2ff 0%, #e8f9f1 100%);
+}
+
+h1 {
+  text-decoration: underline;
+}
+
+.recipe-links {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 12px 16px;
+  border: 2px solid #222;
+  border-radius: 8px;
+}
+.recipe-links a {
+  text-decoration: none;
+  color: inherit;
+  transition:
+    transform 0.15s ease,
+    text-decoration-color 0.15s ease;
+}
+
+.recipe-links a:hover {
+  text-decoration: underline;
+  transform: scale(1.03);
+}
