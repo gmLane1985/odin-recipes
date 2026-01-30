@@ -11,11 +11,137 @@
     <h1>No Bake Cheesecake</h1>
     <img src="/assets/cheesecake.jpg" alt="picture of banana bread" />
     <a href="/index.html">Return to homepage</a>
-    <section id="description">
-      <p>paragraph 1</p>
-      <p>paragraph 2</p>
-    </section>
-    <section id="ingredients"></section>
-    <section id="instructions"></section>
+    <fieldset id="description" class="section-card">
+      <legend class="section-legend">
+        <h2>Description</h2>
+      </legend>
+      <p></p>
+      <div class="details">
+        <div class="detail-item">
+          <span class="detail-label">Prep Time</span>
+          <span class="detail-value">35 mins</span>
+        </div>
+        <div class="detail-item">
+          <span class="detail-label">Chill Time</span>
+          <span class="detail-value">4 hours</span>
+        </div>
+        <div class="detail-item">
+          <span class="detail-label">Total Time</span>
+          <span class="detail-value">4 hours 35 mins</span>
+        </div>
+        <div class="detail-item">
+          <span class="detail-label">Servings</span>
+          <span class="detail-value">12 slices</span>
+        </div>
+      </div>
+    </fieldset>
+    <fieldset id="ingredients" class="section-card">
+      <legend class="section-legend">
+        <h2>Ingredients</h2>
+      </legend>
+      <ul>
+        <h3>Crust</h3>
+        <li>1 ½ cups (170 g) graham cracker crumbs</li>
+        <li>7 Tablespoons (100 g) butter melted</li>
+        <h3>Filling</h3>
+        <li>16 oz (450 g) cream cheese softened to room temperature</li>
+        <li>1 cup (150 g) powdered sugar</li>
+        <li>1 teaspoon vanilla extract</li>
+        <li>2 teaspoons lemon juice</li>
+        <li>⅓ cup (75 g) sour cream</li>
+        <li>1 ½ cup (355 ml) heavy cream</li>
+        <h3>Whipped Cream</h3>
+        <li>¾ cup (177 ml) heavy cream</li>
+        <li>¼ cup (40 g) powdered sugar</li>
+        <li>½ teaspoon vanilla extract</li>
+      </ul>
+    </fieldset>
+    <hr />
+    <fieldset id="instructions" class="section-card">
+      <legend class="section-legend">
+        <h2>Instructions</h2>
+      </legend>
+      <h3>Crust</h3>
+      <ol>
+        <li>
+          Pulverize graham crackers in food processor until finely ground into
+          crumbs
+        </li>
+        <li>
+          In a medium bowl mix graham cracker crumbs and melted butter until
+          crumbs are all moistened
+        </li>
+        <li>
+          Pour mixture into pie plate or springform pan. Use the bottom of a
+          measuring cup to firmly pack crumbs into the bottom of the pan and (if
+          using a pie pan) gently press up the sides. Use your fingers to pack
+          crumbs tightly into the sides of the pie pan
+        </li>
+        <li>Refrigerate or freeze for 10-20 minutes</li>
+      </ol>
+      <h3>Filling</h3>
+      <ol>
+        <li>
+          Place cream cheese in a large bowl and, using an electric mixer, beat
+          until smooth and creamy.
+        </li>
+        <li>Add powdered sugar and stir until combined.</li>
+        <li>Add sour cream and stir well.</li>
+        <li>
+          Pour heavy cream into a separate, medium-sized bowl (preferably a
+          chilled metal bowl). Whisk on high speed until stiff peaks are
+          achieved (mixture will be thick, fluffy, voluminous and will hold a
+          peak).
+        </li>
+        <li>
+          Using a spatula, gently fold the whipped cream into cream cheese
+          mixture until smooth and well-combined and mixture is uniform.
+        </li>
+        <li>
+          Spread cheesecake mixture evenly into prepared graham cracker crust
+          (be sure to fill the crust completely, if there is any gapping between
+          the filling and the crust it will crumble when cut into).
+        </li>
+        <li>
+          Cover and refrigerate at least 4 hours or overnight. Top with whipped
+          cream topping before serving
+        </li>
+      </ol>
+      <h3>Whipped Cream</h3>
+      <ol>
+        <li>
+          Combine heavy cream, powdered sugar, and vanilla extract in a
+          medium-sized mixing bowl. Use an electric mixer to beat until thick,
+          fluffy, and stiff peaks form. Spread or pipe over cheesecake before
+          serving (after the cheesecake has had time to set)
+        </li>
+      </ol>
+    </fieldset>
+    <fieldset id="nutrition" class="nutrition-card">
+      <legend class="nutrition-legend">
+        <span class="nutrition-title">Nutrition Facts</span>
+        <span class="nutrition-subtitle">(per serving)</span>
+      </legend>
+      <div class="nutrition-grid">
+        <div class="nutrition-item">
+          <span class="nutrition-value">457</span>
+          <span class="nutrition-label">Calories</span>
+        </div>
+        <div class="nutrition-item">
+          <span class="nutrition-value">36.5g</span>
+          <span class="nutrition-label">Fat</span>
+        </div>
+        <div class="nutrition-item">
+          <span class="nutrition-value">29.5g</span>
+          <span class="nutrition-label">Carbs</span>
+        </div>
+        <div class="nutrition-item">
+          <span class="nutrition-value">4.25g</span>
+          <span class="nutrition-label">Protein</span>
+        </div>
+      </div>
+      <div class="nutrition-divider"></div>
+      <p class="nutrition-note"></p>
+    </fieldset>
   </body>
 </html>
